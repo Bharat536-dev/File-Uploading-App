@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+.main-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color:#000;	
+	height:100vh;
+	width:100%;
+	color:white ;
+	font-family: "Bree Serif";
+	gap:1rem;
+}
+
+.mini-container{
+	background-color:#31363F;
+	height:50%;
+	width:40%;
+	border-radius:1rem;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+form{
+	display:flex;
+	flex-direction:column;
+	gap:2rem;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.button{
+	background-color: #76ABAE ;
+	color:#000;
+	font-weight:bold;
+	height:2rem;
+	width:6rem;
+	border-radius:0.5rem;
+	border:none;
+}
+
+
+
+.mini-container:hover{
+	box-shadow: #76ABAE 0px 54px 55px, #76ABAE 0px -12px 30px, #76ABAE 0px 4px 6px, #76ABAE 0px 12px 13px, #76ABAE 0px -3px 5px;
+}
+
+.button:hover{
+	box-shadow: #fff 0px 54px 55px, #fff 0px -12px 30px, #fff 0px 4px 6px, #fff 0px 12px 13px, #fff 0px -3px 5px;
+}
